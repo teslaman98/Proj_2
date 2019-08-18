@@ -8,7 +8,7 @@ function searchGiphs(e) {
   e.preventDefault();
   const searchTerm = document.querySelector(".search").value;
  
-  fetch(`https://api.giphy.com/v1/gifs/search?&q=${searchTerm}&limit=9&api_key=3mIxmBZUIIPyb8R69gtxaW8Hsh74dFKV`)
+  fetch(`https://api.giphy.com/v1/gifs/search?&q=${searchTerm}&limit=20&api_key=3mIxmBZUIIPyb8R69gtxaW8Hsh74dFKV`)
     .then(response => {
       return response.json();
     })
