@@ -1,0 +1,32 @@
+
+body {
+    background-color: black;
+    font-family: 'Pacifico', cursive;
+
+  }
+  
+  .results {
+    padding-top: 30px;
+  }
+  
+  img {
+    height: 350px;
+    width: 350px;
+    padding: 10px;
+  }
+  .search-form {
+    display: flex;
+    margin-top: 180px;
+  }
+  .containter {
+    display: flex;
+  }
+header {font-family: 'Pacifico', cursive;}
+
+footer {
+  background-color: black
+}
+
+@media (max-width: 320px) {
+  
+}
