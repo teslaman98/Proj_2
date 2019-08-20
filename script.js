@@ -1,6 +1,7 @@
 
 
 
+
 const searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", searchGiphs);
 
@@ -8,7 +9,7 @@ function searchGiphs(e) {
   e.preventDefault();
   const searchTerm = document.querySelector(".search").value;
  
-  fetch(`https://api.giphy.com/v1/gifs/search?&q=${searchTerm}&limit=20&api_key=3mIxmBZUIIPyb8R69gtxaW8Hsh74dFKV`)
+  fetch(`https://api.giphy.com/v1/gifs/search?&q=${searchTerm}&limit=12&api_key=M4oq1u88pRtoDZOu4uH4ILNDW6hgYZRc`)
     .then(response => {
       return response.json();
     })
